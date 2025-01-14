@@ -7,5 +7,14 @@ let boxes = document.getElementsByClassName("box")
 let huh = document.getElementById("huh")
 // console.log(huh);
 
+let rick = document.getElementById("rick")
+// console.log(rick);
 
-export { myBody, boxes, huh }
+let helicopter = document.getElementById("helicopter")
+console.log(helicopter);
+
+
+let corentin = document.getElementById("corentin")
+
+
+export { myBody, boxes, huh, rick }

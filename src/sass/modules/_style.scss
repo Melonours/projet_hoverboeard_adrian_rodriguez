@@ -17,6 +17,11 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        h1{
+            color: white;
+            margin-bottom: 20px;
+        }
     
         section{
             height: 500px;

@@ -1,4 +1,4 @@
-import { myBody, boxes, huh } from "./variables.js";
+import { myBody, boxes, huh, rick } from "./variables.js";
 
 function hello(){
     console.log(myBody);
@@ -57,8 +57,19 @@ function playAudio(){
 }
 huh.addEventListener("mouseover", () => playAudio())
 
+function rolled(){
+    alert("Perdu !")
+    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+}
+rick.addEventListener("mouseover", () => rolled())
 
+function helicopter(){
 
+}
+
+function corentin(){
+    
+}
 
 
 export { hello, colorRandomizer}

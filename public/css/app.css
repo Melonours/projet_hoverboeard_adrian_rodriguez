@@ -18,6 +18,10 @@ body main {
   justify-content: center;
   align-items: center;
 }
+body main h1 {
+  color: white;
+  margin-bottom: 20px;
+}
 body main section {
   height: 500px;
   width: 500px;
